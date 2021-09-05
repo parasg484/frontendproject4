@@ -1,0 +1,128 @@
+body{
+background-color: rgb(215,214,214);
+margin:100px 330px 100px 310px;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px grey;
+    flex-wrap:nowrap;
+    
+    
+}
+.top-container{
+background-color: white;
+height: 40%;
+width:93.8%;
+border-radius: 10px 10px 0px 0px;
+padding-top: 50px;
+padding-left: 50px;
+
+}
+span{
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+   
+}
+.sec{
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    
+}
+.sec2{
+    color: rgba(167, 166, 166, 0.911);
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    opacity: 80%;
+    line-height: 35px;
+    
+    
+}
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    
+    height: 60%;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+.left-bottom{
+    float: left;
+    background-color: rgb(89,177,176);
+    height: 85%;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    
+
+}
+.right-bottom{
+    float: right;
+    background-color: rgb(107,187,188);
+    height: 85%;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+
+}
+.lt-bottom{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 22px;
+    
+}
+.rt-bottom{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 22px;
+    
+}
+p{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    opacity: 60%;
+    font-size: 17px;
+    line-height: 1.6;
+
+}
+.money{
+    font-size: 40px;
+    color: white;
+    
+}
+.month{
+    opacity: 50%;
+    color: hsl(204, 43%, 93%);
+    font-size: 22px;
+    margin-left: 20px;
+   
+}
+.access{
+    font-size: 18px;
+    color: white;
+    opacity:80%;
+    font-weight: lighter;
+}
+.btn{
+width: 320px;
+align-content: center;
+border: none;
+background-color: hsl(71, 73%, 54%);
+color: hsl(225, 100%, 98%);
+margin: 15px 100px 30px 0px;
+border-radius: 5px;
+height: 65px;
+text-align: center;
+font-weight:bold;
+font-size: 24px;
+font-family: 'Karla', sans-serif;
+box-shadow: 10px 10px 30px grey;
+}
